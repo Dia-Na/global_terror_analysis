@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  8 FEB 2017 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.27)  8 FEB 2017 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -290,11 +290,11 @@ Missing character: There is no Ÿ in font cmr10!
 {/usr/local/texlive/2016basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 ] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3688 strings out of 494447
- 45619 string characters out of 6166766
- 115266 words of memory out of 5000000
- 6972 multiletter control sequences out of 15000+600000
- 17021 words of font info for 62 fonts, out of 8000000 for 9000
+ 3687 strings out of 494447
+ 45604 string characters out of 6166766
+ 114785 words of memory out of 5000000
+ 6971 multiletter control sequences out of 15000+600000
+ 16713 words of font info for 61 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  40i,14n,28p,231b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/am
@@ -307,7 +307,7 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016basic/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016basic/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2016basic/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on paper.pdf (2 pages, 117254 bytes).
+Output written on paper.pdf (2 pages, 113956 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream

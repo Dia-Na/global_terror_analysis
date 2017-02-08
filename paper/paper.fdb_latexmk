@@ -63,9 +63,9 @@
   "paper.tex" 1486557496 7455 a132fa3d67e17531db74cd1304a48c8e ""
   (generated)
   "paper.log"
-  "paper.aux"
   "paper.dvi"
-["pdflatex"] 1486561499 "paper.tex" "paper.pdf" "paper" 1486561499
+  "paper.aux"
+["pdflatex"] 1486561688 "paper.tex" "paper.pdf" "paper" 1486561688
   "/usr/local/texlive/2016basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2016basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/local/texlive/2016basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -146,10 +146,10 @@
   "/usr/local/texlive/2016basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1474974298 79149 8cf89fa4ad83abe24f13cfad4da66b29 ""
   "/usr/local/texlive/2016basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1474973716 2502199 b658596af01e16889165dd76260bcc41 ""
   "/usr/local/texlive/2016basic/texmf.cnf" 1463981856 628 02e65753891144204a0c89f7fa5761b2 ""
-  "informs3.cls" 1486557260 95648 fb6c8916a1cccb769f3466b3d9b13999 ""
-  "paper.aux" 1486561499 8 a94a2480d3289e625eea47cd1b285758 ""
+  "informs3.cls" 1486561679 95145 b4acad58a05357747e8d61d69709093a ""
+  "paper.aux" 1486561688 8 a94a2480d3289e625eea47cd1b285758 ""
   "paper.tex" 1486557496 7455 a132fa3d67e17531db74cd1304a48c8e ""
   (generated)
   "paper.log"
-  "paper.aux"
   "paper.pdf"
+  "paper.aux"

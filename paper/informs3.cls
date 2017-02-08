@@ -1875,13 +1875,6 @@
   \begin{Center}
   \parbox[t][60pt][t]{\textwidth}{%
   \theARTICLETOPLEFT\hfill\theARTICLETOPRIGHT}\\[10pt]
-  \parbox{36pc}{\fs.10.11.\bf\textcolor{red}{Authors are encouraged to submit new papers to INFORMS journals by means of
-a style file template, which includes the journal title. However, use of a
-template does not certify that the paper has been accepted for publication
-in the named journal. INFORMS journal templates are for the exclusive
-purpose of submitting to an INFORMS journal and should not be used to
-distribute the papers in print or online or to submit the papers to another
-publication.}}
 \vspace*{12pt}
   \end{Center}}
 
@@ -2751,4 +2744,3 @@ of the main paper, will be produced by the INFORMS office when the issue is bein
 \endinput
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % end of informs2.cls
-
