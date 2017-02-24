@@ -105,11 +105,14 @@ def generate_data_frame(dates):
     return df
 
 
-def create_scatter_plot_from_date_dict(timestamp_dict):
+def create_scatter_plot_from_date_dict(timestamp_dict, plot_name, type="scatter"):
     xlist = list()
     ylist = list()
     for key in timestamp_dict.keys():
         xlist.append(key)
         ylist.append(timestamp_dict[key])
-    scatter = go.Bar(x=xlist,y=ylist)
+    if type=="scatter":
+        scatter = go.Scatter(x=xlist,y=ylist, name=plot_name)
+    else:
+        scatter = go.Bar(x=xlist,y=ylist, name=plot_name)
     return scatter

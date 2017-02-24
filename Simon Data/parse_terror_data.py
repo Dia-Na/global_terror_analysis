@@ -92,7 +92,7 @@ def get_relative_numbers(timestamps_terror, timestamps_all):
     for timestamp_terror in timestamps_terror.keys():
         for timestamp_all in timestamps_all.keys():
             if timestamp_terror.month == timestamp_all.month and timestamp_terror.year == timestamp_all.year:
-                timestamps_terror[timestamp_terror] = timestamps_terror[timestamp_terror] / timestamps_all[timestamp_all]
+                timestamps_terror[timestamp_terror] = timestamps_terror[timestamp_terror] / timestamps_all[timestamp_all] * 100
     return timestamps_terror
 
 
