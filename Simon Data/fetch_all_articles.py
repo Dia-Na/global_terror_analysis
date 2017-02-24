@@ -5,13 +5,7 @@ from datetime import datetime
 from calendar import monthrange
 from dateutil.rrule import rrule, MONTHLY
 
-import plotly
-import plotly.graph_objs as go
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
-
-plotly.offline.init_notebook_mode()
-
-# Scheme to achieve: 
+# Scheme to achieve:
 # http://api.zeit.de/content?q=release_date:[1960-01-01T00:00:00Z TO 1969-12-31T23:59:59.999Z]&fields=found
 url = "http://api.zeit.de/content"
 query = "release_date:[{date1} TO {date2}]"
@@ -22,10 +16,10 @@ def get_article_count():
     count_dict = dict()
     for month in month_list(1, 2000, datetime.today().month, datetime.today().year):
         monthrange = get_first_and_last_day_of_month(datetime(day=month[0], month=month[1], year=month[2]))
-        r = requests.get("{url}?q={query}".format(url=url, 
+        r = requests.get("{url}?q={query}".format(url=url,
                                                   query=query.format(
-                                                      date1=monthrange[0].isoformat("T") + "Z", 
-                                                      date2=monthrange[1].isoformat("T") + "Z")), 
+                                                      date1=monthrange[0].isoformat("T") + "Z",
+                                                      date2=monthrange[1].isoformat("T") + "Z")),
                                                   headers=headers)
         articles_json = r.json()
         count_dict[monthrange[1]] = articles_json["found"]
@@ -34,11 +28,11 @@ def get_article_count():
 
 def get_first_and_last_day_of_month(date):
     """
-    This function returns, given a date, 
+    This function returns, given a date,
     a tuple with the first and last moment of the given dates' month.
     """
     first_day = datetime(day=1, month=date.month, year=date.year)
-    
+
     last_day_number = monthrange(date.year, date.month)[1]
     last_day = datetime(day=last_day_number, month=date.month, year=date.year,
                         hour=23, minute=59, second=59, microsecond=999999)
@@ -65,4 +59,3 @@ if __name__ == '__main__':
 		yaxis=dict(title="Number of article (grouped by month)"))
 	fig = go.Figure(data=data, layout=layout)
 	iplot(fig)
-
