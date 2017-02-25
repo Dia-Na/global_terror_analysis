@@ -27,7 +27,7 @@
  \def\newblock{\ }%
  \def\BIBand{and}%
 
-%% Setup of theorem styles. Outcomment only one. 
+%% Setup of theorem styles. Outcomment only one.
 %% Preferred default is the first option.
 \TheoremsNumberedThrough     % Preferred (Theorem 1, Lemma 1, Theorem 2)
 %\TheoremsNumberedByChapter  % (Theorem 1.1, Lema 1.1, Theorem 1.2)
@@ -45,7 +45,7 @@
 \begin{document}
 %%%%%%%%%%%%%%%%
 
-% Outcomment only when entries are known. Otherwise leave as is and 
+% Outcomment only when entries are known. Otherwise leave as is and
 %   default values will be used.
 %\setcounter{page}{1}
 %\VOLUME{00}%
@@ -79,8 +79,8 @@
 %\TITLE{}
 
 % Block of authors and their affiliations starts here:
-% NOTE: Authors with same affiliation, if the order of authors allows, 
-%   should be entered in ONE field, separated by a comma. 
+% NOTE: Authors with same affiliation, if the order of authors allows,
+%   should be entered in ONE field, separated by a comma.
 %   \EMAIL field can be repeated if more than one author
 \ARTICLEAUTHORS{%
 \AUTHOR{Susann Goldstein}
@@ -101,8 +101,8 @@
 Text of your abstract % Enter your abstract
 }%
 
-% Sample 
-%\KEYWORDS{deterministic inventory theory; infinite linear programming duality; 
+% Sample
+%\KEYWORDS{deterministic inventory theory; infinite linear programming duality;
 %  existence of optimal policies; semi-Markov decision process; cyclic schedule}
 
 % Fill in data. If unknown, outcomment the field
@@ -162,6 +162,12 @@ earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
 voluptatibus maiores alias consequatur aut perferendis doloribus
 asperiores repellat.
 
+\input{1_introduction}
+\input{2_background}
+\input{3_analytical_process}
+\input{4_discussion}
+\input{5_conclusion}
+
 % Acknowledgments here
 \ACKNOWLEDGMENT{%
 % Enter the text of acknowledgments here
@@ -169,14 +175,14 @@ asperiores repellat.
 
 
 % Appendix here
-% Options are (1) APPENDIX (with or without general title) or 
+% Options are (1) APPENDIX (with or without general title) or
 %             (2) APPENDICES (if it has more than one unrelated sections)
 % Outcomment the appropriate case if necessary
 %
 % \begin{APPENDIX}{<Title of the Appendix>}
 % \end{APPENDIX}
 %
-%   or 
+%   or
 %
 % \begin{APPENDICES}
 % \section{<Title of Section A>}
@@ -185,9 +191,9 @@ asperiores repellat.
 % \end{APPENDICES}
 
 
-% References here (outcomment the appropriate case) 
+% References here (outcomment the appropriate case)
 
-% CASE 1: BiBTeX used to constantly update the references 
+% CASE 1: BiBTeX used to constantly update the references
 %   (while the paper is being written).
 %\bibliographystyle{informs2014} % outcomment this and next line in Case 1
 %\bibliography{<your bib file(s)>} % if more than one, comma separated
@@ -196,5 +202,3 @@ asperiores repellat.
 %\input{mypaper.bbl} % outcomment this line in Case 2
 
 \end{document}
-
-
